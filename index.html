@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create an Account</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(fondo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    
+    }
+    
+    .container h2 {
+      margin-bottom: 10px;
+    }
+    
+    .container form {
+      margin-top: 20px;
+      text-align: left;
+    }
+    
+    .container input {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    .boton{ 
+        background-color: rgb(21, 109, 224);
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+    
+  <div class="container">
+    <h2>Create Account</h2>
+    <p>Already have an account?<a href="iniciar_sesion.html">Sign in</a></p>
+    <form>
+      <input style="width: 355px;" type="text" placeholder="Username" required><br>
+      <div>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+      </div>
+      <input style="width: 355px;" type="email" placeholder="Email" required><br>
+      <input class="boton" style="width: 370px; padding: 12px;color: #f9f9f9;" type="submit" value="SIGNUP">
+    </form>
+  </div>
+</body>
+</html>
